@@ -1,9 +1,5 @@
 package csc4700;
 
-/**
- * Created by jdob on 2/22/15.
- */
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
