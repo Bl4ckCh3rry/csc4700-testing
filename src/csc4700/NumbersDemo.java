@@ -1,10 +1,6 @@
 package csc4700;
 
-import java.util.Arrays;
 
-/**
- * Created by jdob on 2/22/15.
- */
 public class NumbersDemo {
 
     public int sum(int[] nums) {
@@ -12,6 +8,22 @@ public class NumbersDemo {
         for (int i : nums) {
             total += i;
         }
+        return total;
+    }
+
+    public int parseAndSum(String nums) {
+        if (nums == null) {
+            throw new IllegalArgumentException();
+        }
+
+        String[] pieces = nums.split(",");
+        int total = 0;
+        for (String p : pieces) {
+
+            int addMe = Integer.parseInt(p);
+            total += addMe;
+        }
+
         return total;
     }
 
