@@ -14,4 +14,13 @@ public class ExampleTest {
         assertTrue(true);
     }
 
+    public void notATest() {
+
+    }
+
+    @Test
+    public void goodTest() {
+
+    }
+
 }
